@@ -44,8 +44,6 @@ ol {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 button {
@@ -374,5 +372,14 @@ button {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.btm-item {
+  display: flex;
+  align-content: center;
+}
+.content {
+  display: flex;
+  gap: 30px;
 }
 /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */
