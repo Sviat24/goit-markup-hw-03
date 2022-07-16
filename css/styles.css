@@ -186,6 +186,17 @@ button {
 
 /* Description */ /* Description */ /* Description */ /* Description */
 
+.description-list {
+  display: flex;
+  padding-top: 94px;
+  align-content: center;
+  gap: 30px;
+}
+
+.description-hdr {
+  padding-bottom: 10px;
+}
+
 .description-header {
   font-weight: 900;
   font-size: 44px;
@@ -236,7 +247,10 @@ button {
 /* Description */ /* Description */ /* Description */ /* Description */
 
 /* About */ /* About */ /* About */ /* About */ /* About */ /* About */
+
 .titel {
+  padding-top: 94px;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -245,11 +259,27 @@ button {
   color: var(--secondary-text);
 }
 
+.about-list {
+  display: flex;
+  gap: 30px;
+}
+
 /* About */ /* About */ /* About */ /* About */ /* About */ /* About */
 
 /* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */
 
+.team {
+  background: #f5f4fa;
+}
+.team-jpg {
+  display: flex;
+  align-content: center;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
 .team-name {
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -263,6 +293,12 @@ button {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.team-boarder {
+  border: 1px solid #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */
 
