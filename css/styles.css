@@ -146,6 +146,10 @@ button {
   color: var(--accent-color);
 }
 
+.page-header {
+  border: 1px solid #ececec;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -352,6 +356,12 @@ button {
 }
 
 .style-btm-filter {
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
+  border: 1px solid #f5f4fa;
+  border-radius: 4px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -376,10 +386,14 @@ button {
 
 .btm-item {
   display: flex;
-  align-content: center;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  gap: 8px;
 }
 .content {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */
