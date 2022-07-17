@@ -269,6 +269,7 @@ button {
 .about-list {
   display: flex;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
 /* About */ /* About */ /* About */ /* About */ /* About */ /* About */
