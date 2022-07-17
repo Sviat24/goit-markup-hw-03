@@ -171,7 +171,7 @@ button {
 .contact-container {
   display: flex;
   align-items: center;
-  justify-content: end;
+  margin-left: auto;
 }
 
 .contact-container .contact-item + .contact-item {
