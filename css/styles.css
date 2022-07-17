@@ -63,10 +63,6 @@ button {
   margin: -1px;
 }
 
-.address {
-  font-style: normal;
-}
-
 .container {
   width: 1200px;
   margin-left: auto;
@@ -111,18 +107,6 @@ button {
   letter-spacing: 0.03em;
 }
 
-.logo-style-footer {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-.logo-studio-footer {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
 /* /Logo */ /* /Logo */ /* /Logo */ /* /Logo */ /* /Logo */
 
 /* header */ /* header */ /* header */ /* header */ /* header */
@@ -200,8 +184,12 @@ button {
 }
 
 .description-header {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 900;
   font-size: 44px;
+  margin-bottom: 30px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -212,13 +200,20 @@ button {
 
 .description {
   background-color: #2f303a;
+  padding: 200px 0;
+  text-align: center;
 }
 
 .style-btm {
+  display: inline-block;
+  min-width: 200px;
+  font-family: inherit;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: transparent;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   letter-spacing: 0.06em;
   align-items: center;
   text-align: center;
@@ -325,6 +320,34 @@ button {
   color: var(--primary-text);
 }
 
+/* contact */ /* contact */ /* contact */ /* contact */ /* contact */
+
+/* footer */ /* footer */ /* footer */ /* footer */ /* footer */ /* footer */
+.address {
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo-style-footer {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-studio-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .contact-map {
   font-size: 14px;
   line-height: 1.71;
@@ -339,15 +362,9 @@ button {
 
   color: rgba(255, 255, 255, 0.6);
 }
-
-/* contact */ /* contact */ /* contact */ /* contact */ /* contact */
-
-/* footer */ /* footer */ /* footer */ /* footer */ /* footer */ /* footer */
-
-.footer {
-  background-color: #2f303a;
+.contact-item-footer:not(:last-child) {
+  margin-bottom: 9px;
 }
-
 /* footer */ /* footer */ /* footer */ /* footer */ /* footer */ /* footer */
 
 /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */
