@@ -301,7 +301,9 @@ button {
   border-radius: 0px 0px 4px 4px;
   padding-top: 30px;
   padding-bottom: 30px;
+  background: #ffffff;
 }
+
 /* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */
 
 /* contact */ /* contact */ /* contact */ /* contact */ /* contact */
@@ -371,6 +373,7 @@ button {
 }
 
 .gallery-jpg {
+  padding-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -396,4 +399,14 @@ button {
   gap: 30px;
   flex-wrap: wrap;
 }
-/* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */
+
+.glr-board {
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
+
+.section-glr {
+  padding-bottom: 94px;
+}
+
+/* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ ;
