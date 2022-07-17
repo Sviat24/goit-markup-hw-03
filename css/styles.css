@@ -161,11 +161,21 @@ button {
   color: var(--secondary-text);
 }
 
-.menu-list .menu-item:not(:last-child) {
+.menu-item:not(:last-child) {
   margin-right: 50px;
 }
 .current {
   color: var(--accent-color);
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.contact-container .contact-item + .contact-item {
+  margin-left: 50px;
 }
 
 /* /header */ /* /header */ /* /header */ /* /header */ /* /header */
@@ -302,15 +312,6 @@ button {
 /* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */
 
 /* contact */ /* contact */ /* contact */ /* contact */ /* contact */
-.contact-container {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-
-.contact-container .contact-item + .contact-item {
-  margin-left: 50px;
-}
 
 .contact {
   font-weight: 500;
