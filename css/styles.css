@@ -191,6 +191,9 @@ button {
   align-content: center;
   gap: 30px;
 }
+.description-item {
+  width: 270px;
+}
 
 .description-hdr {
   margin-bottom: 10px;
